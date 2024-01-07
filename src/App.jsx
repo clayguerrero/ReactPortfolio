@@ -1,10 +1,18 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "../public/css/App.css";
+import Header from "./components/header";
+import Footer from "./components/footer";
+import Project from "./components/project";
+import About from "./components/About";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <>hello</>;
+  return (
+    <>
+      <Header />
+      <About/>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
