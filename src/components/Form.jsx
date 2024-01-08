@@ -1,6 +1,6 @@
 export default function Form() {
   return (
-    <form class="max-w-md mx-auto">
+    <form class="max-w-md mx-auto w-full mt-4 mb-4">
       <div class="relative z-0 w-full mb-5 group">
         <input
           type="email"
@@ -17,7 +17,7 @@ export default function Form() {
           Email address
         </label>
       </div>
-      <div class="grid md:grid-cols-2 md:gap-6">
+      <div class="flex w-full">
         <div class="relative z-0 w-full mb-5 group">
           <input
             type="text"
