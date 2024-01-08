@@ -52,7 +52,9 @@ Scanned merchandise using point-of-sale system for accurate purchase totals.`,
             <li className="text-white text-sm list-inside">CSS</li>
             <li className="text-white text-sm list-inside">jQuery</li>
             <li className="text-white text-sm list-inside">JavaScrip</li>
-            <li className="text-white text-sm list-inside">Responsive Design</li>
+            <li className="text-white text-sm list-inside">
+              Responsive Design
+            </li>
             <li className="text-white text-sm list-inside">Bootstrap</li>
             <li className="text-white text-sm list-inside">Tailwind</li>
           </ul>
@@ -63,7 +65,9 @@ Scanned merchandise using point-of-sale system for accurate purchase totals.`,
             <li className="text-white text-sm list-inside">Node</li>
             <li className="text-white text-sm list-inside">SQL</li>
             <li className="text-white text-sm list-inside">noSQL</li>
-            <li className="text-white text-sm list-inside">Object Relational Mapping</li>
+            <li className="text-white text-sm list-inside">
+              Object Relational Mapping
+            </li>
             <li className="text-white text-sm list-inside">Express.js</li>
           </ul>
         </div>
@@ -74,7 +78,7 @@ Scanned merchandise using point-of-sale system for accurate purchase totals.`,
           onClick={downloadTxtFile}
           value="download"
           type="button"
-          class="text-gray-900 bg-gradient-to-r from-lime-200 via-lime-400 to-lime-500 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-lime-300 dark:focus:ring-lime-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
           Download
         </button>
