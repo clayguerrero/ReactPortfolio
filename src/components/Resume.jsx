@@ -41,8 +41,33 @@ Scanned merchandise using point-of-sale system for accurate purchase totals.`,
     element.click();
   };
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center">
       <h2 className="text-3xl text-white bold">Resume</h2>
+      <div className="skillContainer flex grid grid-cols-2 w-1/2">
+        <div className="front">
+          <h3 className="text-white text-xl">Frontend Skills</h3>
+          <ul className="flex flex-col  list-disc">
+            <li className="text-white text-sm list-inside">React</li>
+            <li className="text-white text-sm list-inside">HTML</li>
+            <li className="text-white text-sm list-inside">CSS</li>
+            <li className="text-white text-sm list-inside">jQuery</li>
+            <li className="text-white text-sm list-inside">JavaScrip</li>
+            <li className="text-white text-sm list-inside">Responsive Design</li>
+            <li className="text-white text-sm list-inside">Bootstrap</li>
+            <li className="text-white text-sm list-inside">Tailwind</li>
+          </ul>
+        </div>
+        <div className="back">
+          <h3 className="text-white text-xl">Backend Skills</h3>
+          <ul className="list-disc">
+            <li className="text-white text-sm list-inside">Node</li>
+            <li className="text-white text-sm list-inside">SQL</li>
+            <li className="text-white text-sm list-inside">noSQL</li>
+            <li className="text-white text-sm list-inside">Object Relational Mapping</li>
+            <li className="text-white text-sm list-inside">Express.js</li>
+          </ul>
+        </div>
+      </div>
       <div className="btnDiv">
         <button
           id="downloadBtn"
