@@ -1,7 +1,7 @@
 export default function Project() {
   return (
-    <>
-      <div class="grid grid-cols-2 gap-2">
+    <div className="flex mt-4 mb-4 justify-center">
+      <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
           <a href="#">
             <img
@@ -249,6 +249,6 @@ export default function Project() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
