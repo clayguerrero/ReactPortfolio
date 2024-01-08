@@ -7,6 +7,7 @@ import Project from "./components/project";
 import About from "./components/About";
 import "../public/css/App.css";
 import Form from "./components/Form";
+import Resume from "./components/Resume";
 
 function App() {
 
@@ -26,7 +27,7 @@ function App() {
           <Route path="/" exact element={wrapNavbar(<About />)} />
           <Route path="/projects" exact element={wrapNavbar(<Project />)} />
           <Route path="/contact" exact element={wrapNavbar(<Form />)} />
-          {/* <Route path='/resume' exact element={<Project />} /> */}
+          <Route path='/resume' exact element={wrapNavbar(<Resume />)} />
         </Routes>
         <Footer />
       </Router>
