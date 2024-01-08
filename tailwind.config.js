@@ -8,6 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'zinc800': "#27272a",
         primary: {
           50: "#eff6ff",
           100: "#dbeafe",
