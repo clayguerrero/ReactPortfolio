@@ -9,14 +9,23 @@ import "../public/css/App.css";
 import Form from "./components/Form";
 
 function App() {
+
+    const wrapNavbar = (item) => {
+      return (
+        <>
+          <Header />
+          {item}
+        </>
+      );
+    };
+
   return (
-    <div className="flex flex-col justify-center bg-zinc-900" >
+    <div className="flex flex-col justify-center bg-zinc-900">
       <Router>
-        <Header />
         <Routes>
-          <Route path='/' exact element={<About />} />
-          <Route path='/projects' exact element={<Project />} />
-          <Route path='/contact' exact element={< Form />} />
+          <Route path="/" exact element={wrapNavbar(<About />)} />
+          <Route path="/projects" exact element={wrapNavbar(<Project />)} />
+          <Route path="/contact" exact element={wrapNavbar(<Form />)} />
           {/* <Route path='/resume' exact element={<Project />} /> */}
         </Routes>
         <Footer />
