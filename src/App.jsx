@@ -10,24 +10,23 @@ import Form from "./components/Form";
 import Resume from "./components/Resume";
 
 function App() {
-
-    const wrapNavbar = (item) => {
-      return (
-        <>
-          <Header />
-          {item}
-        </>
-      );
-    };
+  const wrapNavbar = (item) => {
+    return (
+      <>
+        <Header />
+        {item}
+      </>
+    );
+  };
 
   return (
     <div className="flex flex-col justify-center bg-zinc-900">
       <Router>
         <Routes>
-          <Route path="/" exact element={wrapNavbar(<About />)} />
-          <Route path="/projects" exact element={wrapNavbar(<Project />)} />
-          <Route path="/contact" exact element={wrapNavbar(<Form />)} />
-          <Route path='/resume' exact element={wrapNavbar(<Resume />)} />
+          <Route path="/" element={wrapNavbar(<About />)} />
+          <Route path="/projects" element={wrapNavbar(<Project />)} />
+          <Route path="/contact" element={wrapNavbar(<Form />)} />
+          <Route path="/resume" element={wrapNavbar(<Resume />)} />
         </Routes>
         <Footer />
       </Router>
