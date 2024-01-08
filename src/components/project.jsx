@@ -6,7 +6,7 @@ export default function Project() {
           <a href="https://github.com/clayguerrero/TapMap">
             <img
               class="rounded-t-lg"
-              src="https://raw.githubusercontent.com/Daleray1231/TapMap/develop/assets/images/Screenshot%201.png"
+              src="../../images/tapMap.PNG"
               alt=""
             />
           </a>
