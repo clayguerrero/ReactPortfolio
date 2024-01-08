@@ -2,7 +2,7 @@ export default function Header() {
 
   return (
     <>
-      <div className="bg-white border-gray-200 dark:bg-gray-900 overflow-hidden">
+      <div className="bg-gray-800 rounded-lg shadow m-4 overflow-hidden m-0">
         {/* navbar */}
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
