@@ -10,7 +10,7 @@ import Form from "./components/Form";
 
 function App() {
   return (
-    <div className="flex flex-col justify-center" >
+    <div className="flex flex-col justify-center bg-zinc-900" >
       <Router>
         <Header />
         <Routes>
