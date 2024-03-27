@@ -20,7 +20,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col justify-center bg-zinc-900">
+    <div className=" h-dvh ">
       <Router>
         <Routes>
           <Route path="/" element={wrapNavbar(<About />)} />
